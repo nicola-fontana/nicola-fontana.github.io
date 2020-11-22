@@ -1,0 +1,279 @@
+/*
+COLOR PALETTE
+https://coolors.co/011627-8ac4ff-7c9082-ee964b-4a5899
+#011627 - Rich Black FOGRA 
+#8AC4FF - Aero 
+#7C9082 - Xanadu 
+#EE964B - Sandy Brown 
+#4A5899 - Liberty   
+#F7FFF7 - Almost White
+#087E8B Metallic Seaweed
+#FBFFB9 Lemon Yellow Crayola
+
+--magic-mint: #a4f9c8;
+--blue-ncs: #0094c6;
+--umber: #725e54;
+
+FONT FAMILIES
+font-family: 'Cabin', sans-serif;
+font-family: 'Modak', cursive;
+
+*/
+
+
+
+
+
+/* Global styles
+--------------------------------------------------------*/
+html {
+      box-sizing: border-box;
+}
+
+*, *:before, *:after{
+      box-sizing: inherit;
+}
+
+body {
+      color: #011627;
+      margin: 0;
+      padding: 0;
+      font-family: 'Cabin', sans-serif;
+      font-size: 17px;
+      line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #EE964B;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+h2 {
+      font-size: 45px;
+}
+
+h1 {
+      font-size: 100px;
+      line-height: 1;
+}
+
+h1, h2 {
+      font-family: 'Modak', cursive;
+      font-weight: 200;
+      margin: 0;
+}
+
+.content-wrap {
+    max-width: 1100px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+h3 {
+      margin-bottom: 0;
+}
+
+.item-details h3 + p {
+    font-style: italic;
+}
+
+.item-details h3 ~ p {
+      margin:  0;
+  }
+
+.divider > section {
+      border-bottom: 2px solid #F7FFF7;
+      padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+      border-bottom: none;
+}
+/* Profile 
+--------------------------------------------------------*/
+header {
+     background-image: url(../images/leone-venter-unsplash.jpg);
+     background-size: cover;
+     background-position: center right;  
+     color: #011627;
+}
+
+
+/* Project
+--------------------------------------------------------*/
+.project {
+      background: #7C9082;
+}
+
+.project a {
+      color: #011627;
+
+}
+
+.project .btn {
+      color: #F7FFF7;
+      background:#4A5899;
+      text-decoration: none;
+      padding: 8px;
+      border-radius: 4px;
+      display: inline-block;
+}
+
+.project .btn:hover {
+      background: rgba(74, 88, 153, 80%);
+}
+
+.project-item {
+      overflow: hidden;
+}
+
+
+.project-item h3{
+      margin-top: 0;
+}
+
+
+/* Work Experience
+--------------------------------------------------------*/
+
+.work-experience {
+      background-image: url(../images/ali-yahya-unsplash.jpg);
+      background-size: cover;
+      background-position: top right;
+      color: #F7FFF7;
+}
+
+
+/* Education
+--------------------------------------------------------*/
+
+.education {
+      background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+      background-size: cover;
+      background-position: top right;
+      padding-bottom: 100px;
+}
+
+.education p {
+      width: 60%;
+}
+
+/* Certificates
+--------------------------------------------------------*/
+
+.certificates {
+      background-image: url(../images/scott-graham_unsplash.jpg);
+      background-size: cover;    
+      padding-bottom: 100px;
+      color: #F7FFF7;
+}
+
+.certificates p {
+      width: 60%;
+}
+
+/* Languages and Software Tools
+--------------------------------------------------------*/
+
+.languages
+{
+    background-image: url(../images/jr-korpa-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    color: #F7FFF7;
+}
+
+.languages-list, .tools-list {
+    list-style-type: none;
+}
+
+.languages-list, .tools-list {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.languages-list li, .tools-list li{
+  margin-right: 75px;
+  width: 100px;
+}
+
+.sw-tools
+{
+    background-image: url(../images/szabo-viktor-unsplash.jpg);
+    background-size: cover;
+    background-position: center left;
+    color: #F7FFF7;
+}
+
+/* Contact Info
+--------------------------------------------------------*/
+footer {
+    background-image: url(../images/nordwood-themes-unsplash.jpg);
+    
+    background-position: center right;
+    background-size: cover;
+    color : #011627 ; 
+    padding-top: 60px;
+}
+.contact-list {
+      list-style-type: none;
+      padding: 0;
+
+}
+
+.contact-list a {
+      padding: 19px;
+      display: inline-block;
+      color: #011627;
+      font-size: 18px;
+}
+
+/* Responisve
+--------------------------------------------------------*/
+
+@media screen and (min-width:820px){
+      header, footer {
+            text-align: center;
+      }
+      
+      
+      .project-item img {
+            float: left;
+            margin-right: 20px;
+      }
+
+      .job-item {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 20px;
+      }
+      .contact-list {
+            display:  flex;
+            justify-content: center;
+      }
+}
+
+@media screen and (max-width:821px){
+      h1 {
+            font-size: 75px;
+            line-height: 0.9;
+            margin-bottom: 20px;
+      }
+
+      h2 {
+            line-height: 1;
+      }
+
+      .contact-list a {
+            padding: 5px;
+      }
+}
