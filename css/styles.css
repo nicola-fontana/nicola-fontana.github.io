@@ -163,7 +163,7 @@ header {
       background-size: cover;
       background-position: top right;
       padding-bottom: 100px;
-      text-shadow: 2px 2px #F7FFF7;
+      text-shadow: 1px 1px #F7FFF7;
 }
 
 .education p {
@@ -225,14 +225,14 @@ header {
 footer {
     background-image: url(../images/nordwood-themes-unsplash.jpg);
     
-    background-position: center right;
+    background-position: center left;
     background-size: cover;
     color : #011627 ; 
     padding-top: 60px;
-    text-shadow: 1px 1px #F7FFF7;
+    text-shadow: 0.5px 0.5px #F7FFF7;
 }
 .contact-list {
-      list-style-type: none;
+      list-style-type:none;
       padding: 0;
 }
 
@@ -242,6 +242,7 @@ footer {
       color: #011627;
       font-size: 20px;
       font-weight: 600;
+      font-family: Roboto, Arial, sans-serif;
 }
 
 /* Responisve
