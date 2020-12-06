@@ -103,9 +103,9 @@ h3 {
 header {
      background-image: url(../images/leone-venter-unsplash.jpg);
      background-size: cover;
-     background-position: center left;  
+     background-position: center right;  
      color: #011627;
-     text-shadow: 2px 2px #F7FFF7;
+     text-shadow: 1px 1px #F7FFF7;
 }
 
 
