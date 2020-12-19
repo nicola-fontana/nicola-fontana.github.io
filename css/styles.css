@@ -51,7 +51,7 @@ h1 {
 }
 
 h1, h2 {
-      font-family: 'Roboto', cursive;
+      font-family: 'Roboto', 'Poppins', cursive;
       font-weight: 400;
       margin: 0;
 }
