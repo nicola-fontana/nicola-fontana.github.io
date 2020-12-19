@@ -1,31 +1,17 @@
 /*
 COLOR PALETTE
 https://coolors.co/011627-8ac4ff-7c9082-ee964b-4a5899
-#011627 - Rich Black FOGRA 
-#8AC4FF - Aero 
-#7C9082 - Xanadu 
-#EE964B - Sandy Brown 
-#4A5899 - Liberty   
-#F7FFF7 - Almost White
-#087E8B Metallic Seaweed
-#FBFFB9 Lemon Yellow Crayola
-
---magic-mint: #a4f9c8;
---blue-ncs: #0094c6;
---umber: #725e54;
+#000000 - Black 
+#F7FFF7 - Almost White 
 
 FONT FAMILIES
-font-family: 'Cabin', sans-serif;
-font-family: 'Modak', cursive;
+font-family: 'Roboto', sans-serif;
 
 */
 
-
-
-
-
 /* Global styles
 --------------------------------------------------------*/
+
 html {
       box-sizing: border-box;
 }
@@ -35,10 +21,10 @@ html {
 }
 
 body {
-      color: #011627;
+      color: #000000;
       margin: 0;
       padding: 0;
-      font-family: 'Cabin', sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-size: 17px;
       line-height: 1.5;
 }
@@ -65,8 +51,8 @@ h1 {
 }
 
 h1, h2 {
-      font-family: 'Arial', cursive;
-      font-weight: 200;
+      font-family: 'Roboto', cursive;
+      font-weight: 400;
       margin: 0;
 }
 
@@ -103,8 +89,8 @@ h3 {
 header {
      background-image: url(../images/leone-venter-unsplash.jpg);
      background-size: cover;
-     background-position: center right;  
-     color: #011627;
+     background-position:bottom left;  
+     color: #000000;
      text-shadow: 1px 1px #F7FFF7;
 }
 
@@ -116,7 +102,7 @@ header {
 }
 
 .project a {
-      color: #011627;
+      color: #000000;
 
 }
 
@@ -151,7 +137,7 @@ header {
       background-size: cover;
       background-position: top right;
       color: #F7FFF7;
-      text-shadow: 2px 2px #011627;
+      text-shadow: 2px 2px #000000;
 }
 
 
@@ -161,9 +147,9 @@ header {
 .education {
       background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
       background-size: cover;
-      background-position: top right;
+      background-position: top left;
       padding-bottom: 100px;
-      text-shadow: 1px 1px #F7FFF7;
+      text-shadow: 0.5px 0.5px #F7FFF7;
 }
 
 .education p {
@@ -178,7 +164,7 @@ header {
       background-size: cover;    
       padding-bottom: 100px;
       color: #F7FFF7;
-      text-shadow: 2px 2px #011627;
+      text-shadow: 1px 1px #000000;
 }
 
 .certificates p {
@@ -194,7 +180,7 @@ header {
     background-size: cover;
     background-position: top right;
     color: #F7FFF7;
-    text-shadow: 2px 2px #011627;
+    text-shadow: 2px 2px #000000;
 }
 
 .languages-list, .tools-list {
@@ -217,32 +203,37 @@ header {
     background-size: cover;
     background-position: center left;
     color: #F7FFF7;
-    text-shadow: 2px 2px #011627;
+    text-shadow: 2px 2px #000000;
 }
 
 /* Contact Info
 --------------------------------------------------------*/
 footer {
-    background-image: url(../images/nordwood-themes-unsplash.jpg);
+    background-image: url(../images/pexels-david-sun-955081.jpg);
     
-    background-position: center left;
-    background-size: cover;
-    color : #011627 ; 
-    padding-top: 60px;
-    text-shadow: 0.5px 0.5px #F7FFF7;
+    background-position: bottom ;
+    background-size: initial;
+    color : #000000 ;   
+    text-shadow: 0.2px 0.2px #F7FFF7;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    text-align: center;
 }
+
 .contact-list {
       list-style-type:none;
       padding: 0;
+      display: flex;
+      justify-content: center;
 }
 
 .contact-list a {
       padding: 19px;
-      display: inline-block;
-      color: #011627;
-      font-size: 20px;
-      font-weight: 600;
-      font-family: Roboto, Arial, sans-serif;
+}
+
+.social-icon {
+      width: 40px;
+      height: 40px;
 }
 
 /* Responisve
@@ -251,8 +242,7 @@ footer {
 @media screen and (min-width:820px){
       header, footer {
             text-align: center;
-      }
-      
+      }  
       
       .project-item img {
             float: left;
@@ -263,10 +253,6 @@ footer {
             display: grid;
             grid-template-columns: 1fr 2fr;
             column-gap: 20px;
-      }
-      .contact-list {
-            display:  flex;
-            justify-content: center;
       }
 }
 
@@ -279,9 +265,5 @@ footer {
 
       h2 {
             line-height: 1;
-      }
-
-      .contact-list a {
-            padding: 5px;
       }
 }
