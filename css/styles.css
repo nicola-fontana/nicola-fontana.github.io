@@ -234,6 +234,11 @@ footer {
 .social-icon {
       width: 40px;
       height: 40px;
+      opacity: .8;
+}
+
+.social-icon:hover {
+      opacity: 1.0;
 }
 
 /* Responisve
