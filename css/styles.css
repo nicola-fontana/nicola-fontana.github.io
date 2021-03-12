@@ -3,7 +3,7 @@ COLOR PALETTE
 https://coolors.co/011627-8ac4ff-7c9082-ee964b-4a5899
 #000000 - Black 
 #F7FFF7 - Almost White 
-
+#3943B7 - Denim Blue
 FONT FAMILIES
 font-family: 'Roboto',Poppins', sans-serif;
 
@@ -84,6 +84,25 @@ h3 {
 .divider > section:last-of-type {
       border-bottom: none;
 }
+
+
+.button {
+      display: inline-block;
+      padding: 7px 15px;
+      font-size:inherit;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #3943B7;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 5px #999;
+    }
+
+    .button:hover {background-color: #5C80BC}
+
 /* Profile 
 --------------------------------------------------------*/
 header {
