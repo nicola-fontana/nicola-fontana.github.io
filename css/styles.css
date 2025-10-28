@@ -1,14 +1,3 @@
-/*
-COLOR PALETTE
-https://coolors.co/011627-8ac4ff-7c9082-ee964b-4a5899
-#000000 - Black 
-#F7FFF7 - Almost White 
-#3943B7 - Denim Blue
-FONT FAMILIES
-font-family: 'Roboto',Poppins', sans-serif;
-
-*/
-
 /* Global styles
 --------------------------------------------------------*/
 
@@ -24,7 +13,7 @@ body {
       color: #000000;
       margin: 0;
       padding: 0;
-      font-family: 'Roboto', 'Poppins', sans-serif;
+      font-family: 'Monaco', sans-serif;
       font-size: 17px;
       line-height: 1.5;
 }
@@ -48,10 +37,11 @@ h2 {
 h1 {
       font-size: 100px;
       line-height: 1;
+      font-family: 'Monaco', sans-serif;
 }
 
 h1, h2 {
-      font-family: 'Roboto', 'Poppins', cursive;
+      font-family: 'Monaco', cursive;
       font-weight: 400;
       margin: 0;
 }
